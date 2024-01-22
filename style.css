@@ -3,3 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header{
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1{
+  font-family: 'Ultra', serif;
+}
+
+header #carrinho{
+  /* estilos aqui */
+}
+
+main{
+  /*margin-top: 40px;*/
+}
