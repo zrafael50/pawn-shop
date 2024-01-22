@@ -21,5 +21,7 @@ header #carrinho{
 }
 
 main{
-  /*margin-top: 40px;*/
+  width: 316px;
+  border: 1px solid red;
+  margin: 0 auto;
 }
