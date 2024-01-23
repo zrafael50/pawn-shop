@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background: url(./bg-wooden-paper.jpg);
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -21,6 +25,7 @@ header #carrinho {
 }
 
 main {
+  background-color: rgba(255, 228, 196, 0.4);
   width: 416px;
   border: 2px solid black;
   margin: 0 auto;
