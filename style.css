@@ -40,9 +40,18 @@ button:not(#buy-button) {
   width: 20px;
 }
 
+button[onclick^="add"]{
+  background-color: rgb(170, 255, 170);
+}
+
+button[onclick^="remove"]{
+  background-color: rgb(255, 163, 163);
+}
+
 #buy-button {
   margin: 40px auto 0;
   width: 200px;
   height: 50px;
   display: block;
 }
+
