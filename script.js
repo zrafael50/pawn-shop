@@ -91,12 +91,12 @@ function removeItens5() {
 }
 
 function buy() {
-  gastos = (qtd[0]*40) + (qtd[1] * 50) + (qtd[2] * 27.99) + (qtd[3] * 29.99) + *(qtd[4] * 21.90)
+  gastos = (qtd[0]*40) + (qtd[1] * 50) + (qtd[2] * 27.99) + (qtd[3] * 29.99) + (qtd[4] * 21.90)
   if (gastos > saldo){
     gastos = 0;
     alert("saldo insuficiente");
   } else {
     saldo = saldo - gastos;
-    carteira.innerHTML = "R$"+saldo;
+    carteira.innerHTML = "R$"+saldo.toFixed(2);
   }
 }
