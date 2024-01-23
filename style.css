@@ -12,8 +12,18 @@ header {
   display: flex;
   flex-direction: row;
   padding: 40px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+}
+
+header #carteira{
+  border: 2px solid green;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: rgb(170, 255, 170);
+  font-size: 30px;
 }
 
 header h1 {
@@ -21,7 +31,13 @@ header h1 {
 }
 
 header #carrinho {
-  /* estilos aqui */
+  border: 2px solid black;
+  padding: 20px;
+}
+
+/* icone de carrinho */
+#carrinho:first-child{ 
+  width: 100px;
 }
 
 main {
