@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-header{
+header {
   display: flex;
   flex-direction: row;
   padding: 40px;
@@ -12,25 +12,37 @@ header{
   align-items: center;
 }
 
-header h1{
-  font-family: 'Ultra', serif;
+header h1 {
+  font-family: "Ultra", serif;
 }
 
-header #carrinho{
+header #carrinho {
   /* estilos aqui */
 }
 
-main{
+main {
   width: 316px;
   border: 1px solid red;
   margin: 0 auto;
   padding: 10px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-size: 20px;
 }
 
-.produtos{
+.produtos {
   margin: 10px;
   display: flex;
   justify-content: space-between;
+}
+
+button:not(#buy-button) {
+  width: 20px;
+}
+
+#buy-button {
+  margin: 40px auto 0;
+  width: 200px;
+  height: 50px;
+  display: block;
 }
