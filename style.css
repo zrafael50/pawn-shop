@@ -21,7 +21,7 @@ header #carrinho {
 }
 
 main {
-  width: 316px;
+  width: 416px;
   border: 2px solid black;
   margin: 0 auto;
   padding: 10px;
@@ -36,15 +36,22 @@ main {
   justify-content: space-between;
 }
 
+.qtd {
+  font-size: 30px;
+  padding: 0 10px;
+  width: 50px;
+  display: inline-block;
+}
+
 button:not(#buy-button) {
   width: 20px;
 }
 
-button[onclick^="add"]{
+button[onclick^="add"] {
   background-color: rgb(170, 255, 170);
 }
 
-button[onclick^="remove"]{
+button[onclick^="remove"] {
   background-color: rgb(255, 163, 163);
 }
 
@@ -54,4 +61,3 @@ button[onclick^="remove"]{
   height: 50px;
   display: block;
 }
-
