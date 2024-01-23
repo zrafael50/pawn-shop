@@ -99,4 +99,9 @@ function buy() {
     saldo = saldo - gastos;
     carteira.innerHTML = "R$"+saldo.toFixed(2);
   }
+
+  if (saldo == 0 || saldo == 0.00){
+    carteira.style.backgroundColor = "rgb(255, 163, 163)";
+    carteira.style.border = "2px solid rgb(255, 163, 163)";
+  }
 }
