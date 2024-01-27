@@ -68,11 +68,11 @@ button:not(#buy-button) {
   width: 20px;
 }
 
-button[onclick^="add"] {
+.add {
   background-color: rgb(170, 255, 170);
 }
 
-button[onclick^="remove"] {
+.remove{
   background-color: rgb(255, 163, 163);
 }
 
